@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_cie_lab_1690012635005-push-trigger-input-set
+  identifier: Build_harness_cie_lab_1690012635005pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: IVAN
+  pipeline:
+    identifier: Build_harness_cie_lab_1690012635005
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
