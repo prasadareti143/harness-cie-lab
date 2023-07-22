@@ -1,5 +1,6 @@
 inputSet:
   name: Build_harness_cie_lab_1690012635005-push-trigger-input-set
+  tags: {}
   identifier: Build_harness_cie_lab_1690012635005pushtriggerinputset
   orgIdentifier: default
   projectIdentifier: IVAN
@@ -12,3 +13,7 @@ inputSet:
             type: branch
             spec:
               branch: <+trigger.branch>
+  cacheResponse:
+    cacheState: VALID_CACHE
+    ttlLeft: 2591903770
+    lastUpdatedAt: 1690012743990
